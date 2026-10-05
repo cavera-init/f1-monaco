@@ -1,0 +1,217 @@
+/* Configuración general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Cabecera */
+header {
+    background-color: #15151e;
+    color: #ffffff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 20px;
+}
+
+header img {
+    height: 48px;
+    display: block;
+}
+
+/* Menú de navegación */
+nav {
+    background-color: #e10600;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-weight: bold;
+}
+
+nav li a:hover {
+    background-color: #b30500;
+}
+
+/* Contenido principal */
+main {
+    max-width: 950px;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+}
+
+h2, h3 {
+    color: #15151e;
+}
+
+main a {
+    color: #e10600;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+/* Figuras e imágenes con pie de foto */
+figure {
+    margin: 20px 0;
+    padding: 0;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+}
+
+figcaption {
+    font-size: 12px;
+    color: #666666;
+    margin-top: 6px;
+    font-style: italic;
+}
+
+/* Listas */
+ol, ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/* Tabla de clasificación */
+.tabla-clasificacion {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.tabla-clasificacion caption {
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: left;
+    color: #15151e;
+}
+
+.tabla-clasificacion th,
+.tabla-clasificacion td {
+    border: 1px solid #cccccc;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+.tabla-clasificacion thead tr {
+    background-color: #15151e;
+    color: #ffffff;
+}
+
+.tabla-clasificacion tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Formulario alineado */
+.formulario-contacto fieldset {
+    max-width: 520px;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.formulario-contacto legend {
+    font-weight: bold;
+    padding: 0 6px;
+}
+
+.formulario-contacto .campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 14px;
+}
+
+.formulario-contacto label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.formulario-contacto input,
+.formulario-contacto select,
+.formulario-contacto textarea {
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.formulario-contacto .botones {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.formulario-contacto button {
+    background-color: #e10600;
+    color: #ffffff;
+    border: none;
+    padding: 9px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.formulario-contacto button:hover {
+    background-color: #b30500;
+}
+
+/* Separador horizontal */
+hr {
+    border: 0;
+    border-top: 1px solid #e0e0e0;
+    margin: 30px 0 10px 0;
+}
+
+/* Pie de página */
+footer {
+    background-color: #15151e;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 13px;
+}
+
+footer small {
+    color: #aaaaaa;
+    display: block;
+    margin-top: 8px;
+}
