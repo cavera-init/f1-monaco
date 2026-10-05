@@ -39,7 +39,7 @@
         <!-- Formulario con envío mailto -->
         <section>
             <h3>Formulario de consulta</h3>
-            <form action="mailto:ticketstore@formula1.com" method="post" enctype="text/plain" class="formulario-contacto">
+            <form action="mailto:ticketstore@formula1.com" method="post" enctype="text/plain" class="formulario-contacto" onsubmit="return validarFormulario();">
                 <fieldset>
                     <legend>Detalles de la comunicación</legend>
  
@@ -105,5 +105,6 @@
         <p>Proyecto creado con fines formativos para la asignatura de ASIR, Lenguaje de Marcas y Sistemas de Gestión de Información (LMSGI) - BirtLH.</p>
         <p><small>Recursos gráficos utilizados bajo licencias libres y con fines didácticos. F1, FORMULA ONE y las marcas relacionadas pertenecen a Formula One Licensing B.V. Sitio sin fines comerciales.</small></p>
     </footer>
+    <script src="funciones/funciones.js"></script>
 </body>
 </html> 

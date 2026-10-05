@@ -41,7 +41,8 @@
         <p>Para consultar los resultados en la web oficial, visita: 
             <a href="https://www.formula1.com/en/results/2026/races/1286/monaco/race-result" target="_blank" title="Resultados oficiales F1">Resultado oficial de la carrera de Monaco 2026</a>
         </p>
- 
+         <button type="button" onclick="alternarRetirados()">Mostrar / Ocultar Resultado</button>
+        <div id="bloque-retirados" style="display: none;">
         <!-- Tabla con resultados de la carrera -->
         <table class="tabla-clasificacion">
             <caption>Resultados de carrera</caption>
@@ -78,7 +79,6 @@
             <li>Lewis Hamilton</li>
             <li>Isack Hadjar</li>
         </ol>
- 
         <!-- Lista desordenada -->
         <h3>Pilotos que no terminaron (DNF)</h3>
         <ul>
@@ -88,6 +88,7 @@
             <li>Oliver Bearman</li>
             <li>Valtteri Bottas</li>
             <li>Max Verstappen</li>
+        </div>
         </ul>
         <hr>
     </main>
@@ -97,5 +98,6 @@
         <p>Proyecto creado con fines formativos para la asignatura de ASIR, Lenguaje de Marcas y Sistemas de Gestión de Información (LMSGI) - BirtLH.</p>
         <p><small>F1, FORMULA ONE y marcas asociadas son propiedad de Formula One Licensing B.V. Sitio web sin fines comerciales.</small></p>
     </footer>
+    <script src="funciones/funciones.js"></script>
 </body>
 </html>
