@@ -3,7 +3,7 @@ function avisarNoticia() {
     alert("Última hora: Sesión de clasificación programada sin cambios meteorológicos en Montecarlo.");
 }
 
-// Muestra u oculta todo el bloque de resultados en clasificacion.html
+// Muestra/oculta todo el bloque de resultados en clasificacion.html
 function alternarResultados() {
     let bloque = document.getElementById("bloque-resultados");
     if (bloque.style.display === "none") {
