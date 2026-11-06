@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>GP de Mónaco 2026 - Novedades F1</title>
+    <link>https://cavera-init.github.io/f1-monaco/</link>
+    <description>Canal de noticias y actualizaciones sobre el Gran Premio de Mónaco 2026 de Fórmula 1.</description>
+    <language>es</language>
+    <pubDate>Fri, 06 Nov 2026 09:00:00 GMT</pubDate>
+    <item>
+      <title>Publicación de los resultados de clasificación oficial</title>
+      <link>https://cavera-init.github.io/f1-monaco/clasificacion.html</link>
+      <description>Se han actualizado los resultados completos de la carrera del GP de Mónaco con la tabla de posiciones final.</description>
+      <guid>https://cavera-init.github.io/f1-monaco/clasificacion.html</guid>
+      <pubDate>Fri, 06 Nov 2026 09:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Apertura del canal de atención al espectador</title>
+      <link>https://cavera-init.github.io/f1-monaco/contacto.html</link>
+      <description>Ya está disponible el formulario de contacto para enviar consultas e incidencias sobre el evento.</description>
+      <guid>https://cavera-init.github.io/f1-monaco/contacto.html</guid>
+      <pubDate>Thu, 05 Nov 2026 16:30:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
